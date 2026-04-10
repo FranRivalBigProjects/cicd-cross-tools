@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let t=+travis.value,g=+gha.value;if(!t||!g){res.innerText='Enter values';return;}res.innerText=t<g?'Travis faster':'GitHub faster';}

@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let t=+tools.value,tm=+time.value;if(!t||!tm){res.innerText='Enter values';return;}res.innerText=`Avg time per tool: ${(tm/t).toFixed(2)}s`;}

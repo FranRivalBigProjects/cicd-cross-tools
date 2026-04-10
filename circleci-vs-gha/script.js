@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=+circle.value,g=+gha.value;if(!c||!g){res.innerText='Enter values';return;}res.innerText=c<g?'CircleCI faster':'GitHub faster';}

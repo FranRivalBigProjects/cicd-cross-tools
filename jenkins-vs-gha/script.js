@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let j=+jenkins.value,g=+gha.value;if(!j||!g){res.innerText='Enter values';return;}res.innerText=j<g?'Jenkins faster':'GitHub Actions faster';}

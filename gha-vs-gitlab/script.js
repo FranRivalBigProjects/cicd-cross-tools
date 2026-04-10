@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let g=+gha.value,l=+gitlab.value;if(!g||!l){res.innerText='Enter values';return;}res.innerText=g<l?'GitHub faster':'GitLab faster';}
